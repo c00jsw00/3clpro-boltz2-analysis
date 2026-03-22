@@ -1,0 +1,11 @@
+{
+  "LIGAND_ID": "CmpdCT00670275",
+  "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(Cl)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+  "true_IC50_uM": 0.004,
+  "true_log10_IC50": -2.3979400086720375,
+  "predicted_log10_IC50": -2.3655525860472064,
+  "predicted_IC50_uM": 0.004309703712944741,
+  "binder_probability": 0.00023198068496265933,
+  "error_log10": 0.032387422624830915,
+  "error_fold": 0.9281380499512051
+}

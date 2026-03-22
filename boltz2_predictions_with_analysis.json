@@ -1,0 +1,234 @@
+{
+  "analysis": {
+    "pearson_correlation": 0.9293140207505696,
+    "rmse": 0.36214623082661135,
+    "mae": 0.27920445027864427,
+    "mean_fold_error": 1.4577847896747602,
+    "within_2fold": 14,
+    "within_5fold": 18,
+    "within_10fold": 20,
+    "total_samples": 20
+  },
+  "predictions": [
+    {
+      "LIGAND_ID": "CmpdCT00670274",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(C=C3)C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.0013,
+      "true_log10_IC50": -2.886056647693163,
+      "predicted_log10_IC50": -2.0767001677785646,
+      "predicted_IC50_uM": 0.008381077029456278,
+      "binder_probability": 0.0001193021725385966,
+      "error_log10": 0.8093564799145985,
+      "error_fold": 0.15511132941876055
+    },
+    {
+      "LIGAND_ID": "CmpdCT04372176",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(F)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.003,
+      "true_log10_IC50": -2.5228787452803374,
+      "predicted_log10_IC50": -2.1123261855906685,
+      "predicted_IC50_uM": 0.007721004657103311,
+      "binder_probability": 0.00012950005139923361,
+      "error_log10": 0.41055255968966875,
+      "error_fold": 0.38855047150373173
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670275",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(Cl)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.004,
+      "true_log10_IC50": -2.3979400086720375,
+      "predicted_log10_IC50": -2.3655525860472064,
+      "predicted_IC50_uM": 0.004309703712944741,
+      "binder_probability": 0.00023198068496265933,
+      "error_log10": 0.032387422624830915,
+      "error_fold": 0.9281380499512051
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670276",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(C)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.006,
+      "true_log10_IC50": -2.221848749616356,
+      "predicted_log10_IC50": -1.7647625409986447,
+      "predicted_IC50_uM": 0.01718847944002049,
+      "binder_probability": 5.817511830357133e-05,
+      "error_log10": 0.4570862086177113,
+      "error_fold": 0.3490710170691427
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670277",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(O)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.008,
+      "true_log10_IC50": -2.0969100130080562,
+      "predicted_log10_IC50": -2.9170837724459746,
+      "predicted_IC50_uM": 0.0012103646399407649,
+      "binder_probability": 0.0008255152635534248,
+      "error_log10": -0.8201737594379181,
+      "error_fold": 6.609578416295704
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670278",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CN)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.015,
+      "true_log10_IC50": -1.8239087409443189,
+      "predicted_log10_IC50": -1.9075747930150515,
+      "predicted_IC50_uM": 0.012371581115812076,
+      "binder_probability": 8.082387907903923e-05,
+      "error_log10": -0.08366605207073267,
+      "error_fold": 1.212456181597399
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670279",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CC)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.025,
+      "true_log10_IC50": -1.6020599913279623,
+      "predicted_log10_IC50": -1.673458161214793,
+      "predicted_IC50_uM": 0.021210057153457945,
+      "binder_probability": 4.7145222077579196e-05,
+      "error_log10": -0.07139816988683059,
+      "error_fold": 1.1786861213584316
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670280",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(COC)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.038,
+      "true_log10_IC50": -1.4202164033831899,
+      "predicted_log10_IC50": -1.3168178809726072,
+      "predicted_IC50_uM": 0.048214994219227064,
+      "binder_probability": 2.0740005804987226e-05,
+      "error_log10": 0.10339852241058264,
+      "error_fold": 0.78813656654648
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670281",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(C(C)C)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.052,
+      "true_log10_IC50": -1.2839966563652008,
+      "predicted_log10_IC50": -1.116545112784851,
+      "predicted_IC50_uM": 0.0764636256937761,
+      "binder_probability": 1.3077942786312446e-05,
+      "error_log10": 0.16745154358034994,
+      "error_fold": 0.6800619186991107
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670282",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CC(=O)N)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.075,
+      "true_log10_IC50": -1.1249387366083,
+      "predicted_log10_IC50": -0.8305434980697434,
+      "predicted_IC50_uM": 0.14772585149110878,
+      "binder_probability": 6.769250071373697e-06,
+      "error_log10": 0.29439523853855654,
+      "error_fold": 0.5076971920822811
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670283",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CN)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.12,
+      "true_log10_IC50": -0.9208187539523752,
+      "predicted_log10_IC50": -0.8891403347528507,
+      "predicted_IC50_uM": 0.12908021058344282,
+      "binder_probability": 7.747060904372005e-06,
+      "error_log10": 0.03167841919952451,
+      "error_fold": 0.9296545106147546
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670284",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CCC)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.18,
+      "true_log10_IC50": -0.744727494896694,
+      "predicted_log10_IC50": -1.0167440362663813,
+      "predicted_IC50_uM": 0.09621791988206879,
+      "binder_probability": 1.0392966385671908e-05,
+      "error_log10": -0.27201654136968734,
+      "error_fold": 1.8707533920980646
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670285",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(C=O)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.25,
+      "true_log10_IC50": -0.6020599913279624,
+      "predicted_log10_IC50": -0.4377880036142501,
+      "predicted_IC50_uM": 0.36493204127817935,
+      "binder_probability": 2.7402287183903524e-06,
+      "error_log10": 0.16427198771371235,
+      "error_fold": 0.68505905681609
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670286",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CN)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.35,
+      "true_log10_IC50": -0.4559319556497244,
+      "predicted_log10_IC50": -0.28068634170289253,
+      "predicted_IC50_uM": 0.5239787304589512,
+      "binder_probability": 1.9084707706615023e-06,
+      "error_log10": 0.17524561394683189,
+      "error_fold": 0.667966044525197
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670287",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(COC)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.48,
+      "true_log10_IC50": -0.3187587626244128,
+      "predicted_log10_IC50": -0.2744576493789843,
+      "predicted_IC50_uM": 0.5315478313491464,
+      "binder_probability": 1.88129470148934e-06,
+      "error_log10": 0.044301113245428486,
+      "error_fold": 0.9030231555675612
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670288",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(C(C)C)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.62,
+      "true_log10_IC50": -0.2076083105017461,
+      "predicted_log10_IC50": -0.4942823563933332,
+      "predicted_IC50_uM": 0.32041854472048886,
+      "binder_probability": 3.1209082481916877e-06,
+      "error_log10": -0.28667404589158707,
+      "error_fold": 1.934969152740037
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670289",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CC(=O)N)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 0.85,
+      "true_log10_IC50": -0.07058107428570727,
+      "predicted_log10_IC50": -0.43112056344750543,
+      "predicted_IC50_uM": 0.3705778322802674,
+      "binder_probability": 2.698481167547378e-06,
+      "error_log10": -0.3605394891617982,
+      "error_fold": 2.2937151819624937
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670290",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CCC)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 1.2,
+      "true_log10_IC50": 0.07918124604762482,
+      "predicted_log10_IC50": -0.4979480284498525,
+      "predicted_IC50_uM": 0.31772542664764314,
+      "binder_probability": 3.1473617430916256e-06,
+      "error_log10": -0.5771292744974773,
+      "error_fold": 3.776845978810495
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670291",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(C=O)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 1.8,
+      "true_log10_IC50": 0.25527250510330607,
+      "predicted_log10_IC50": -0.027066046276533973,
+      "predicted_IC50_uM": 0.9395804109674561,
+      "binder_probability": 1.0643037296473686e-06,
+      "error_log10": -0.28233855137984004,
+      "error_fold": 1.9157487523038046
+    },
+    {
+      "LIGAND_ID": "CmpdCT00670292",
+      "SMILES": "CC(C)N1CCN(CC1)C(=O)NC2C(C)CC(=O)N(C2)C(=O)C3=CC=C(CN)C=C3C(=O)NC4=C(C=CC(=C4)C)C(=O)N(C)C",
+      "true_IC50_uM": 2.5,
+      "true_log10_IC50": 0.3979400086720376,
+      "predicted_log10_IC50": 0.25791199627681904,
+      "predicted_IC50_uM": 1.8109730869834213,
+      "binder_probability": 5.521890165009048e-07,
+      "error_log10": -0.1400280123952186,
+      "error_fold": 1.3804733035344585
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "pearson_correlation": 0.9293140207505696,
+  "rmse": 0.36214623082661135,
+  "mae": 0.27920445027864427,
+  "mean_fold_error": 1.4577847896747602,
+  "within_2fold": 14,
+  "within_5fold": 18,
+  "within_10fold": 20,
+  "total_samples": 20
+}
